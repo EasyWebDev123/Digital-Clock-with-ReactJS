@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import  {useState, useEffect} from "react";
 
 function DigitalClock(){
 
@@ -31,11 +31,9 @@ function DigitalClock(){
 
   return(
     <div className="container">
-
       <div className="clock">
         <span>{formatTime()}</span>
         </div>
-
     </div>
   );
 
